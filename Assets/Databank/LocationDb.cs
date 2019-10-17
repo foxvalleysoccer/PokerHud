@@ -21,7 +21,7 @@ namespace DataBank{
         {
             IDbCommand dbcmd = getDbCommand();
             dbcmd.CommandText = "CREATE TABLE IF NOT EXISTS " + TABLE_NAME + " ( " +
-                KEY_ID + " TEXT PRIMARY KEY, " +
+                KEY_ID + " ID, " +
                 KEY_TYPE + " TEXT, " +
                 KEY_LAT + " TEXT, " +
                 KEY_LNG + " TEXT, " +
